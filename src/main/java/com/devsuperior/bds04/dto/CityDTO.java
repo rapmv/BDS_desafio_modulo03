@@ -16,6 +16,7 @@ public class CityDTO implements Serializable {
 	public CityDTO(Long id, String name) {
 		this.id = id;
 		this.name = name;
+
 	}
 	
 	public CityDTO(City entity) {
@@ -38,4 +39,5 @@ public class CityDTO implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 }
